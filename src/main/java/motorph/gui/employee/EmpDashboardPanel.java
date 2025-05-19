@@ -166,7 +166,7 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
         jLabel12 = new javax.swing.JLabel();
         jCalendar1 = new com.toedter.calendar.JCalendar();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
         setName(""); // NOI18N
         setPreferredSize(new java.awt.Dimension(834, 600));
@@ -192,7 +192,6 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Hello there! Ready to see what's new? Your dashboard has been updated with the latest information.");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wave.png"))); // NOI18N
@@ -247,8 +246,8 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(61, Short.MAX_VALUE))
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 181, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(35, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -274,7 +273,6 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        employeePicture.setForeground(new java.awt.Color(0, 0, 0));
         employeePicture.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         employeePicture.setText("Employee Picture");
 
@@ -285,23 +283,18 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
         });
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Employee ID:");
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("First Name:");
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Last Name:");
 
         jLabel8.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("Birthday:");
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("Phone Number:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -351,11 +344,11 @@ public class EmpDashboardPanel extends javax.swing.JPanel {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel8)
                     .addComponent(birthdayTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel9)
-                    .addComponent(phoneNumberTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addGap(27, 27, 27))
+                    .addComponent(phoneNumberTextField, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jLabel9))
+                .addGap(30, 30, 30))
         );
 
         jPanel14.setBackground(new java.awt.Color(255, 120, 0));

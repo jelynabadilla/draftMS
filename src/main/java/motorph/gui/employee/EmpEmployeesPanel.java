@@ -127,7 +127,7 @@ public class EmpEmployeesPanel extends javax.swing.JPanel {
         refreshEmployeeTable = new javax.swing.JButton();
         editEmployeeDetailsButton = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
 
         jPanel13.setBackground(new java.awt.Color(139, 0, 0));
@@ -148,62 +148,48 @@ public class EmpEmployeesPanel extends javax.swing.JPanel {
         employeesTitle.setForeground(new java.awt.Color(24, 59, 78));
         employeesTitle.setText("Employee");
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(239, 239, 239));
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Employee ID:");
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("First Name:");
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Last Name:");
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Birthday:");
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Address:");
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Phone Number:");
 
         jLabel8.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("SSS Number:");
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("PhilHealth Number:");
 
         jLabel10.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Pag-IBIG Number:");
 
         jLabel11.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Status:");
 
         jLabel12.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("Position:");
 
         jLabel13.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Supervisor:");
 
         jLabel14.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Basic Salary:");
 
         jLabel15.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Hourly Rate:");
 
         employeeIdTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -213,7 +199,6 @@ public class EmpEmployeesPanel extends javax.swing.JPanel {
         });
 
         jLabel16.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("TIN Number:");
 
         jTextArea1.setColumns(20);
@@ -221,18 +206,14 @@ public class EmpEmployeesPanel extends javax.swing.JPanel {
         jScrollPane1.setViewportView(jTextArea1);
 
         jLabel17.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setText("Rice Subsidy:");
 
         jLabel18.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Phone Allowance:");
 
         jLabel19.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
         jLabel19.setText("Clothing Allowance:");
 
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("EMPLOYEE PICTURE");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

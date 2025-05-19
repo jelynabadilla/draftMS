@@ -243,7 +243,7 @@ public class EmpAttendancePanel extends javax.swing.JPanel {
         employeeIdComboBox = new javax.swing.JComboBox<>();
         jLabelEmployeeFilter = new javax.swing.JLabel();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
         setName(""); // NOI18N
 
@@ -296,8 +296,7 @@ public class EmpAttendancePanel extends javax.swing.JPanel {
 
         employeeIdComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabelEmployeeFilter.setForeground(new java.awt.Color(0, 0, 0));
-        jLabelEmployeeFilter.setText("jLabel1");
+        jLabelEmployeeFilter.setText("Label1");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);

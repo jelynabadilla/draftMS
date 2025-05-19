@@ -318,7 +318,7 @@ public class AttendancePanel extends javax.swing.JPanel {
         weekComboBox = new javax.swing.JComboBox<>();
         monthComboBox = new javax.swing.JComboBox<>();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
 
         jPanel14.setBackground(new java.awt.Color(139, 0, 0));

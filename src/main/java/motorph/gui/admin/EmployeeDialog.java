@@ -144,67 +144,52 @@ public class EmployeeDialog extends javax.swing.JDialog {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel1.setBackground(new java.awt.Color(239, 239, 239));
 
         jLabel1.setBackground(new java.awt.Color(0, 0, 0));
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Add Employee");
 
         jLabel2.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Employee ID:");
 
         jLabel3.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("First Name:");
 
         jLabel4.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Last Name:");
 
         jLabel5.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Birthday:");
 
         jLabel6.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
         jLabel6.setText("Address:");
 
         jLabel7.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel7.setForeground(new java.awt.Color(0, 0, 0));
         jLabel7.setText("Phone Number:");
 
         jLabel8.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel8.setForeground(new java.awt.Color(0, 0, 0));
         jLabel8.setText("SSS Number:");
 
         jLabel9.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel9.setForeground(new java.awt.Color(0, 0, 0));
         jLabel9.setText("PhilHealth Number:");
 
         jLabel10.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel10.setForeground(new java.awt.Color(0, 0, 0));
         jLabel10.setText("Pag-IBIG Number:");
 
         jLabel11.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel11.setForeground(new java.awt.Color(0, 0, 0));
         jLabel11.setText("Status:");
 
         jLabel12.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel12.setForeground(new java.awt.Color(0, 0, 0));
         jLabel12.setText("Position:");
 
         jLabel13.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel13.setForeground(new java.awt.Color(0, 0, 0));
         jLabel13.setText("Supervisor:");
 
         jLabel14.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel14.setForeground(new java.awt.Color(0, 0, 0));
         jLabel14.setText("Basic Salary:");
 
         jLabel15.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel15.setForeground(new java.awt.Color(0, 0, 0));
         jLabel15.setText("Hourly Rate:");
 
         employeeIdTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -214,7 +199,6 @@ public class EmployeeDialog extends javax.swing.JDialog {
         });
 
         jLabel16.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel16.setForeground(new java.awt.Color(0, 0, 0));
         jLabel16.setText("TIN Number:");
 
         positionTextField.addActionListener(new java.awt.event.ActionListener() {
@@ -228,15 +212,12 @@ public class EmployeeDialog extends javax.swing.JDialog {
         cancelAddEmployee.setText("Cancel");
 
         jLabel17.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel17.setForeground(new java.awt.Color(0, 0, 0));
         jLabel17.setText("Phone Allowance:");
 
         jLabel18.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel18.setForeground(new java.awt.Color(0, 0, 0));
         jLabel18.setText("Rice Subsidy:");
 
         jLabel19.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel19.setForeground(new java.awt.Color(0, 0, 0));
         jLabel19.setText("Clothing Allowance:");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -318,11 +299,11 @@ public class EmployeeDialog extends javax.swing.JDialog {
                                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                                 .addComponent(hourlyRateTextField, javax.swing.GroupLayout.PREFERRED_SIZE, 216, javax.swing.GroupLayout.PREFERRED_SIZE))))))))
                     .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(285, 285, 285)
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addComponent(cancelAddEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addGap(18, 18, 18)
                         .addComponent(saveEmployee, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(198, 198, 198)))
+                        .addGap(209, 209, 209)))
                 .addGap(51, 51, 51))
         );
         jPanel1Layout.setVerticalGroup(

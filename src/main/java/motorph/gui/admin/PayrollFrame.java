@@ -251,17 +251,15 @@ public class PayrollFrame extends JFrame {
         setBackground(new java.awt.Color(255, 255, 255));
         setMaximumSize(null);
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(239, 239, 239));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
 
         payrollTitle.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         payrollTitle.setForeground(new java.awt.Color(24, 59, 78));
         payrollTitle.setText("Payroll");
 
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("Employee");
 
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Month");
 
         calculateButton.setText("Calculate");
@@ -271,7 +269,6 @@ public class PayrollFrame extends JFrame {
             }
         });
 
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Week");
 
         employeeComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -309,10 +306,8 @@ public class PayrollFrame extends JFrame {
         resultTextArea.setRows(5);
         jScrollPane1.setViewportView(resultTextArea);
 
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Payroll Report");
 
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Employee Details:");
 
         employeeDetailsTextArea.setEditable(false);
@@ -320,8 +315,7 @@ public class PayrollFrame extends JFrame {
         employeeDetailsTextArea.setRows(5);
         jScrollPane4.setViewportView(employeeDetailsTextArea);
 
-        jLabel6.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel6.setText("Employe Picture");
+        jLabel6.setText("Employee Picture");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -333,7 +327,6 @@ public class PayrollFrame extends JFrame {
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(49, 49, 49)
                         .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                                 .addGroup(jPanel2Layout.createSequentialGroup()
                                     .addComponent(jLabel4, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -348,8 +341,10 @@ public class PayrollFrame extends JFrame {
                                     .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 118, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                     .addComponent(employeeComboBox, javax.swing.GroupLayout.PREFERRED_SIZE, 203, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 88, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(jLabel6, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(jLabel5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE))))
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(16, 16, 16)
                         .addComponent(payrollTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE))

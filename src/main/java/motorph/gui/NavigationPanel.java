@@ -65,13 +65,12 @@ public class NavigationPanel extends JPanel {
         jPanel1.setPreferredSize(new java.awt.Dimension(160, 600));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 14)); // NOI18N
+        jLabel5.setFont(new java.awt.Font("Segoe UI", 1, 20)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(255, 255, 255));
         jLabel5.setText("Menu");
-        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 170, -1, -1));
+        jPanel1.add(jLabel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 160, -1, -1));
 
-        dashboardButton.setBackground(new java.awt.Color(255, 255, 255));
-        dashboardButton.setForeground(new java.awt.Color(0, 0, 0));
+        dashboardButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         dashboardButton.setText("Dashboard");
         dashboardButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -80,8 +79,7 @@ public class NavigationPanel extends JPanel {
         });
         jPanel1.add(dashboardButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 200, 140, -1));
 
-        employeesButton.setBackground(new java.awt.Color(255, 255, 255));
-        employeesButton.setForeground(new java.awt.Color(0, 0, 0));
+        employeesButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         employeesButton.setText("Employees");
         employeesButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -90,8 +88,7 @@ public class NavigationPanel extends JPanel {
         });
         jPanel1.add(employeesButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 250, 140, -1));
 
-        payrollButton.setBackground(new java.awt.Color(255, 255, 255));
-        payrollButton.setForeground(new java.awt.Color(0, 0, 0));
+        payrollButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         payrollButton.setText("Payroll");
         payrollButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -100,8 +97,7 @@ public class NavigationPanel extends JPanel {
         });
         jPanel1.add(payrollButton, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 350, 140, -1));
 
-        attendanceButton.setBackground(new java.awt.Color(255, 255, 255));
-        attendanceButton.setForeground(new java.awt.Color(0, 0, 0));
+        attendanceButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         attendanceButton.setText("Attendance");
         attendanceButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -116,14 +112,13 @@ public class NavigationPanel extends JPanel {
         jPanel2.setLayout(null);
 
         jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/MotorPH Icon.png"))); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/motorph_logo (6).png"))); // NOI18N
         jPanel2.add(jLabel1);
-        jLabel1.setBounds(6, 50, 150, 80);
+        jLabel1.setBounds(0, 0, 160, 150);
 
         jPanel1.add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 150));
 
-        logoutButton.setBackground(new java.awt.Color(255, 255, 255));
-        logoutButton.setForeground(new java.awt.Color(0, 0, 0));
+        logoutButton.setFont(new java.awt.Font("Segoe UI", 0, 14)); // NOI18N
         logoutButton.setText("Logout");
         logoutButton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {

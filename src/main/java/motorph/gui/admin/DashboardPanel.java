@@ -108,7 +108,7 @@ public class DashboardPanel extends javax.swing.JPanel {
         jScrollPane4 = new javax.swing.JScrollPane();
         remindersTextArea = new javax.swing.JTextArea();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
         setPreferredSize(new java.awt.Dimension(834, 600));
 
@@ -153,7 +153,6 @@ public class DashboardPanel extends javax.swing.JPanel {
         jPanel7.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 15)); // NOI18N
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Hello there! Ready to see what's new? Your dashboard has been updated with the latest information.");
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/wave.png"))); // NOI18N
@@ -218,8 +217,8 @@ public class DashboardPanel extends javax.swing.JPanel {
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel12Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 155, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(167, Short.MAX_VALUE))
+                .addComponent(jLabel6, javax.swing.GroupLayout.PREFERRED_SIZE, 206, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(116, Short.MAX_VALUE))
         );
         jPanel12Layout.setVerticalGroup(
             jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -268,8 +267,8 @@ public class DashboardPanel extends javax.swing.JPanel {
             .addGap(0, 41, Short.MAX_VALUE)
         );
 
+        employeeCountValueLabel.setBackground(new java.awt.Color(255, 255, 255));
         employeeCountValueLabel.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
-        employeeCountValueLabel.setForeground(new java.awt.Color(0, 0, 0));
         employeeCountValueLabel.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         employeeCountValueLabel.setText("#");
 

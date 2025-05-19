@@ -151,14 +151,13 @@ public class EmployeesPanel extends javax.swing.JPanel {
 
         jPanel13 = new javax.swing.JPanel();
         employeesTitle = new javax.swing.JLabel();
-        jLabel1 = new javax.swing.JLabel();
         addEmployeeButton = new javax.swing.JButton();
         employeeTable = new javax.swing.JScrollPane();
         employeesPanelTable = new javax.swing.JTable();
         viewEmployeeDetailsButton = new javax.swing.JButton();
         refreshEmployeeTable = new javax.swing.JButton();
 
-        setBackground(new java.awt.Color(255, 255, 255));
+        setBackground(new java.awt.Color(239, 239, 239));
         setMaximumSize(null);
 
         jPanel13.setBackground(new java.awt.Color(139, 0, 0));
@@ -178,9 +177,6 @@ public class EmployeesPanel extends javax.swing.JPanel {
         employeesTitle.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         employeesTitle.setForeground(new java.awt.Color(24, 59, 78));
         employeesTitle.setText("Employees");
-
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
-        jLabel1.setText("List of Employees");
 
         addEmployeeButton.setText("Add Employee");
         addEmployeeButton.addActionListener(new java.awt.event.ActionListener() {
@@ -222,7 +218,7 @@ public class EmployeesPanel extends javax.swing.JPanel {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(addEmployeeButton)
                     .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                         .addGroup(layout.createSequentialGroup()
@@ -230,14 +226,12 @@ public class EmployeesPanel extends javax.swing.JPanel {
                             .addComponent(employeesTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE))
                         .addGroup(layout.createSequentialGroup()
                             .addGap(25, 25, 25)
-                            .addComponent(employeeTable, javax.swing.GroupLayout.PREFERRED_SIZE, 781, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, layout.createSequentialGroup()
-                        .addGap(42, 42, 42)
-                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 301, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                        .addComponent(refreshEmployeeTable)
-                        .addGap(18, 18, 18)
-                        .addComponent(viewEmployeeDetailsButton)))
+                            .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                                    .addComponent(refreshEmployeeTable)
+                                    .addGap(18, 18, 18)
+                                    .addComponent(viewEmployeeDetailsButton))
+                                .addComponent(employeeTable, javax.swing.GroupLayout.PREFERRED_SIZE, 781, javax.swing.GroupLayout.PREFERRED_SIZE)))))
                 .addContainerGap(34, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -246,20 +240,14 @@ public class EmployeesPanel extends javax.swing.JPanel {
                 .addComponent(jPanel13, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(employeesTitle, javax.swing.GroupLayout.PREFERRED_SIZE, 53, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addComponent(jLabel1)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                        .addGap(0, 6, Short.MAX_VALUE)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(viewEmployeeDetailsButton)
-                            .addComponent(refreshEmployeeTable))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 20, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(viewEmployeeDetailsButton)
+                    .addComponent(refreshEmployeeTable))
                 .addComponent(employeeTable, javax.swing.GroupLayout.PREFERRED_SIZE, 347, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(addEmployeeButton)
-                .addGap(0, 53, Short.MAX_VALUE))
+                .addGap(0, 51, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -293,7 +281,6 @@ public class EmployeesPanel extends javax.swing.JPanel {
     private javax.swing.JScrollPane employeeTable;
     private javax.swing.JTable employeesPanelTable;
     private javax.swing.JLabel employeesTitle;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JPanel jPanel13;
     private javax.swing.JButton refreshEmployeeTable;
     private javax.swing.JButton viewEmployeeDetailsButton;

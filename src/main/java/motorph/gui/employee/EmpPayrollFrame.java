@@ -259,7 +259,7 @@ public class EmpPayrollFrame extends JFrame {
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
 
-        jPanel2.setBackground(new java.awt.Color(255, 255, 255));
+        jPanel2.setBackground(new java.awt.Color(239, 239, 239));
         jPanel2.setForeground(new java.awt.Color(255, 255, 255));
         jPanel2.setMaximumSize(null);
 
@@ -267,7 +267,6 @@ public class EmpPayrollFrame extends JFrame {
         payrollTitle.setForeground(new java.awt.Color(24, 59, 78));
         payrollTitle.setText("Payroll");
 
-        jLabel3.setForeground(new java.awt.Color(0, 0, 0));
         jLabel3.setText("Month");
 
         calculateButton.setText("Calculate");
@@ -277,7 +276,6 @@ public class EmpPayrollFrame extends JFrame {
             }
         });
 
-        jLabel4.setForeground(new java.awt.Color(0, 0, 0));
         jLabel4.setText("Week");
 
         monthComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
@@ -313,10 +311,8 @@ public class EmpPayrollFrame extends JFrame {
         resultTextArea.setRows(5);
         jScrollPane1.setViewportView(resultTextArea);
 
-        jLabel1.setForeground(new java.awt.Color(0, 0, 0));
         jLabel1.setText("Payroll Report");
 
-        jLabel5.setForeground(new java.awt.Color(0, 0, 0));
         jLabel5.setText("Employee Details:");
 
         employeeDetailsTextArea.setEditable(false);
@@ -326,7 +322,6 @@ public class EmpPayrollFrame extends JFrame {
 
         employeeComboBox.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
-        jLabel2.setForeground(new java.awt.Color(0, 0, 0));
         jLabel2.setText("jLabel2");
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);

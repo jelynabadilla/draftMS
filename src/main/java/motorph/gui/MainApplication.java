@@ -139,6 +139,7 @@ public class MainApplication extends javax.swing.JFrame {
         navigationPanel1.setMinimumSize(new java.awt.Dimension(160, 200));
         getContentPane().add(navigationPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 160, 600));
 
+        contentPanel.setBackground(new java.awt.Color(237, 237, 237));
         contentPanel.setMaximumSize(new java.awt.Dimension(2147483647, 2147483647));
         contentPanel.setPreferredSize(new java.awt.Dimension(840, 600));
         contentPanel.setLayout(new java.awt.BorderLayout());
